@@ -421,7 +421,7 @@
   content: "\25c0";
 }
 .eicon-close:before {
-  content: "\e87f";
+  content: "\2716";
 }
 .eicon-file-download:before {
   content: "\e880";
@@ -430,7 +430,7 @@
   content: "\e881";
 }
 .eicon-zoom-in:before {
-  content: "\e882";
+  content: "\2544";
 }
 .eicon-shortcode:before {
   content: "\e883";
@@ -946,7 +946,7 @@
   content: "\e92d";
 }
 .eicon-zoom-in-bold:before {
-  content: "\e92e";
+  content: "\2544";
 }
 .eicon-sort-amount-desc:before {
   content: "\e92f";
@@ -982,7 +982,7 @@
   content: "\e939";
 }
 .eicon-close-circle:before {
-  content: "\e93a";
+  content: "\2716";
 }
 .eicon-trash-o:before {
   content: "\e93b";
@@ -1009,7 +1009,7 @@
   content: "\e942";
 }
 .eicon-zoom-out-bold:before {
-  content: "\e943";
+  content: "\005F";
 }
 .eicon-plus-square-o:before {
   content: "\e944";
@@ -1084,7 +1084,7 @@
   content: "\e95b";
 }
 .eicon-frame-expand:before {
-  content: "\e95c";
+  content: "\26F6";
 }
 .eicon-frame-minimize:before {
   content: "\e95d";
@@ -1132,7 +1132,7 @@
   content: "\e96b";
 }
 .eicon-share-arrow:before {
-  content: "\e96c";
+  content: "\2923";
 }
 .eicon-global-settings:before {
   content: "\e96d";
