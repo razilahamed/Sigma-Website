@@ -9784,7 +9784,7 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"]
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   display: block;
-  background: url(//gaviaspreview.com/wp/constix/wp-content/themes/constix/assets/css/../images/dot-grid.png)
+  background: url("/wp-content/uploads/2023/12/dot-grid.png")
     no-repeat center center transparent;
   background-size: cover;
 }
@@ -9792,7 +9792,7 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"]
   position: relative;
   z-index: 11;
   padding-left: 110px;
-  padding-bottom: 164px;
+  padding-bottom: 47px;
   text-align: right;
 }
 .about-three__image .content-inner {
@@ -9802,10 +9802,10 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"]
   -webkit-transition: all 5s;
   transition: all 5s;
 }
-.about-three__image:hover img {
+/* .about-three__image:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
 @media (max-width: 575px) {
   .about-three__image {
     padding-left: 30px;
@@ -14714,6 +14714,7 @@ div[class*="col-md-4"] .post-thumbnail iframe {
 }
 .portfolio-one__title {
   margin: 10px 0 0;
+  text-transform: uppercase;
   font-size: 22px;
 }
 @media (max-width: 1024px) {
@@ -15227,6 +15228,7 @@ div[class*="col-md-4"] .post-thumbnail iframe {
   font-size: 20px;
   margin-top: 15px;
   word-wrap: break-word;
+  text-transform: uppercase;
 }
 #wp-main-content {
   min-height: 50px;
