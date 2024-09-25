@@ -9520,8 +9520,6 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"]
   content: "";
   width: 18px;
   height: 26px;
-  background: url(//gaviaspreview.com/wp/constix/wp-content/themes/constix/assets/css/../images/arrow.png)
-    no-repeat center center transparent;
   display: inline-block;
   position: absolute;
   top: 12px;
@@ -16747,7 +16745,7 @@ ul.nav-tabs > li.active > a {
   transition: all 0.35s;
   display: inline-block;
   background-size: 10px;
-  opacity: 0;
+  opacity: 1;
   z-index: 11;
 }
 @media (max-width: 768px) {
