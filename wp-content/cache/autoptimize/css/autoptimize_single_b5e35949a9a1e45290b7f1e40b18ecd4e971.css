@@ -692,7 +692,6 @@ body:not(.rtl)
   .elementor-element.elementor-element-1b26dd7a
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../../../uploads/2023/12/bg-contact.jpg");
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -700,7 +699,6 @@ body:not(.rtl)
 .elementor-193
   .elementor-element.elementor-element-1b26dd7a
   > .elementor-background-overlay {
-  background-image: url("../../../uploads/2023/12/bg-10-overlay.png");
   background-position: bottom left;
   background-repeat: no-repeat;
   opacity: 1;

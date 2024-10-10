@@ -7509,7 +7509,6 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"]
   left: -50px;
   width: 5px;
   height: 14px;
-  background: var(--e-global-color-primary);
 }
 @media (max-width: 1024px) {
   .gsc-content-carousel.style-2
