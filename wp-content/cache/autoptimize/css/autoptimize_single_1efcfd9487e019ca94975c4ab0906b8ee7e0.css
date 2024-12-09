@@ -243,7 +243,7 @@ body:not(.rtl) .elementor-23 .elementor-element.elementor-element-d6cb795 .eleme
 
 .elementor-23 .elementor-element.elementor-element-73fdb4c {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-    padding: 120px 0 0
+    padding: 0 0 0 0
 }
 
 .elementor-23 .elementor-element.elementor-element-73fdb4c>.elementor-background-overlay {
@@ -294,7 +294,7 @@ body:not(.rtl) .elementor-23 .elementor-element.elementor-element-d6cb795 .eleme
 }
 
 .elementor-23 .elementor-element.elementor-element-810b16b {
-    padding: 240px 0 90px
+    padding: 90px 0 0 0
 }
 
 .elementor-23 .elementor-element.elementor-element-909616f>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
@@ -405,7 +405,7 @@ body:not(.rtl) .elementor-23 .elementor-element.elementor-element-d6cb795 .eleme
 }
 
 .elementor-23 .elementor-element.elementor-element-2135f5f {
-    padding: 120px 0 90px
+    padding: 90px 0 90px
 }
 
 .elementor-23 .elementor-element.elementor-element-7edb6c5>.elementor-element-populated {

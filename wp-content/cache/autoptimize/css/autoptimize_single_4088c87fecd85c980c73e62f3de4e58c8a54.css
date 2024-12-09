@@ -37,7 +37,7 @@
 }
 body {
   margin: 0;
-  font-family: var(--constix-font-sans-serif);
+  /* font-family: var(--constix-font-ariel); */
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;

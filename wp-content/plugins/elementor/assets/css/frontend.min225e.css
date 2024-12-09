@@ -6726,11 +6726,11 @@ body.elementor-page .elementor-widget-menu-anchor {
 
     .elementor-widget-tabs.elementor-tabs-view-vertical .elementor-tabs-content-wrapper {
         flex-grow: 1;
-        border-style: solid solid solid none
+        border-style: solid solid solid solid
     }
 
     .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-content {
-        border-style: none solid solid
+        border-style: solid solid solid
     }
 
     .elementor-widget-tabs.elementor-tabs-alignment-center .elementor-tabs-wrapper,
