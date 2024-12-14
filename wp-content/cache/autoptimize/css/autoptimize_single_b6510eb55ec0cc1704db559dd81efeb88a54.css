@@ -7476,14 +7476,15 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"]
 .gsc-content-carousel.style-2 .quote-slider-wrapper .quote-text-wrap .title {
   margin: 0;
   color: #070c1e;
-  -webkit-text-fill-color: #fff;
+  /* -webkit-text-fill-color: #fff; */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--e-global-color-primary);
-  font-size: 60px;
+  /* -webkit-text-stroke-color: var(--e-global-color-primary); */
+  font-size: 50px;
   line-height: 1;
   font-weight: 700;
   color: v var(--e-global-color-primary);
   font-family: var(--constix-heading-font-family);
+  text-transform: uppercase;
 }
 @media (max-width: 1024px) {
   .gsc-content-carousel.style-2 .quote-slider-wrapper .quote-text-wrap .title {
@@ -14647,6 +14648,13 @@ div[class*="col-md-4"] .post-thumbnail iframe {
   display: block;
   width: 350px;
   height: 400px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.portfolio-one__image_checkout img {
+  display: block;
+  width: 350px;
+  height: 330px;
   -o-object-fit: cover;
   object-fit: cover;
 }
