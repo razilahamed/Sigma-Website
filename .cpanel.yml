@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home4/sigmaco8/public_html/website_b52b83eb
-    - /bin/cp -R * $DEPLOYPATH/
