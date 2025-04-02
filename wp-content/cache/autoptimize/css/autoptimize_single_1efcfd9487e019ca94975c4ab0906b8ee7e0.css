@@ -1,6 +1,6 @@
 .elementor-23 .elementor-element.elementor-element-ee503c8>.elementor-background-overlay {
     background-color: var(--e-global-color-secondary);
-    opacity: .7;
+    opacity: 0.3;
     transition: background .3s, border-radius .3s, opacity .3s
 }
 
@@ -39,11 +39,12 @@
 
 .elementor-23 .elementor-element.elementor-element-3b6761e:not(.elementor-motion-effects-element-type-background),
 .elementor-23 .elementor-element.elementor-element-3b6761e>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var(--e-global-color-9e78dc2);
-    background-image: url("/wp-content/uploads/team/chairman.png");
+    /* background-color: var(--e-global-color-9e78dc2); */
+    /* background-image: url("/wp-content/uploads/team/chairman.png"); */
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+    padding-top: 40px;
 }
 
 .elementor-23 .elementor-element.elementor-element-3b6761e {
@@ -71,7 +72,7 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-83ff4d5>.elementor-element-populated {
-    padding: 120px 15px 120px 45px
+    padding: 20px 15px 20px 45px
 }
 
 .elementor-23 .elementor-element.elementor-element-e63e02d .gsc-heading .content-inner {

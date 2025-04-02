@@ -907,64 +907,16 @@
         //});
       }
     </script>
-<!-- <style>
-  .sigma-container {
-    background-image: url('/wp-content/uploads/2022/12/city-avenue.jpg'); /* Add your background image path */
-    background-size: cover;
-    background-position: center;
-    padding: 200px;
-    height: 85vh;
-    color: #000000; /* Adjust text color for better visibility */
-  }
-  .line {
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-
-    .letter {
-      font-size: 3em;
-      font-weight: bold;
-      opacity: 1;
-      color: #1a698e;
-      transition: opacity 0.6s ease-in-out;
-    }
-
-    .highlight {
-      font-size: 1.8em;
-      margin-left: 10px;
-      opacity: 1;
-      color: #f1973f;
-      transition: opacity 0.6s ease-in-out;
-    }
-
-    .meaning {
-      margin-left: 10px;
-      font-size: 1.2em;
-      display: flex;
-      color: #f1973f;
-      flex-wrap: wrap;
-    }
-
-    .meaning-char {
-      opacity: 1;
-      transition: opacity 0.6s ease-in-out;
-    }
-
-    .visible {
-      opacity: 1;
-    }
-
-    .highlight-visible {
-      opacity: 1;
-    }
-
-    .meaning-char-visible {
-      opacity: 1;
-    }
-  </style> -->
-
-
+    <style>
+      .gv-sticky-menu {
+          position: fixed;
+          top: -100px;  /* initially hidden above view */
+          left: 0;
+          width: 100%;
+          transition: top 0.1ms ease;  /* faster transition */
+          z-index: 9999;
+      }
+      </style>
   </head>
 
   <body
@@ -1189,8 +1141,7 @@
                             data-elementor-id="19"
                             class="elementor elementor-19"
                           >
-
-                          <section
+                            <section
                               class="elementor-section elementor-top-section elementor-element elementor-element-f2a7aed elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                               data-id="f2a7aed"
                               data-element_type="section"
@@ -1206,656 +1157,102 @@
                                   <div
                                     class="elementor-widget-wrap elementor-element-populated"
                                   >
+                                    <!-- Carousel Start -->
                                     <div
-                                      class="elementor-element elementor-element-66dade1 elementor-widget elementor-widget-gva-rev-slider"
-                                      data-id="66dade1"
-                                      data-element_type="widget"
-                                      data-widget_type="gva-rev-slider.default"
+                                      id="carousel"
+                                      class="carousel slide"
+                                      data-bs-ride="carousel"
                                     >
-                                      <div class="elementor-widget-container">
-                                        <div
-                                          class="gva-element-gva-rev-slider gva-element"
-                                        >
-                                          <p class="rs-p-wp-fix"></p>
-                                          <rs-module-wrap
-                                            id="rev_slider_2_1_wrapper"
-                                            data-source="gallery"
-                                            style="
-                                              visibility: hidden;
-                                              background: transparent;
-                                              padding: 0;
-                                              margin: 0px auto;
-                                              margin-top: 0;
-                                              margin-bottom: 0;
-                                            "
-                                          >
-                                            <rs-module
-                                              id="rev_slider_2_1"
-                                              style
-                                              data-version="6.6.18"
-                                            >
-                                              <rs-slides
-                                                style="
-                                                  overflow: hidden;
-                                                  position: absolute;
-                                                "
-                                              >
-                                                <rs-slide
-                                                  style="position: absolute"
-                                                  data-key="rs-6"
-                                                  data-title="Slide"
-                                                  data-thumb="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-1-50x100.jpg"
-                                                  data-in="o:0;"
-                                                  data-out="a:false;"
-                                                >
-                                                  <img
-                                                    fetchpriority="high"
-                                                    decoding="async"
-                                                    src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt
-                                                    title="slider-1"
-                                                    width="1920"
-                                                    height="827"
-                                                    class="rev-slidebg tp-rs-img rs-lazyload"
-                                                    data-lazyload="/wp-content/uploads/2023/12/slider-1.jpg"
-                                                    data-parallax="off"
-                                                    data-no-retina
-                                                  /><rs-layer
-                                                    id="slider-2-slide-17-layer-0"
-                                                    data-type="text"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:15px;y:m;yo:-24px,-21px,-13px,-17px;"
-                                                    data-text="w:normal;s:80,60,48,30;l:82,71,60,38;ls:-1px,0px,0px,0px;fw:700;"
-                                                    data-frame_1="e:power4.inOut;st:380;sp:1200;sR:380;"
-                                                    data-frame_1_sfx="se:blocktoright;"
-                                                    data-frame_999="o:0;st:w;sR:7420;"
-                                                    style="z-index: 13"
-                                                  >
-                                                    <span
-                                                      style="
-                                                        color: #f6983d;
-                                                        font-size: 50px;
-                                                        margin-left: 5px;
-                                                      "
-                                                      >S </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 20px;
-                                                        color: #1b698e;
-                                                      "
-                                                      >OLUTION </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 15px;
-                                                        text-transform: uppercase;
-                                                      "
-                                                      >to prevent/minimize
-                                                      obstacles</span
-                                                    ><br />
-                                                    <span
-                                                      style="
-                                                        color: #f6983d;
-                                                        font-size: 50px;
-                                                        margin-left: 15px;
-                                                      "
-                                                      >I </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 20px;
-                                                        color: #1b698e;
-                                                      "
-                                                      >NNOVATION </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 15px;
-                                                        text-transform: uppercase;
-                                                      "
-                                                      >featuring new
-                                                      methods</span
-                                                    ><br />
-                                                    <span
-                                                      style="
-                                                        color: #f6983d;
-                                                        font-size: 50px;
-                                                      "
-                                                    >
-                                                      G </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 20px;
-                                                        color: #1b698e;
-                                                      "
-                                                      >OAL-ORIENTED </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 15px;
-                                                        text-transform: uppercase;
-                                                      "
-                                                      >focused on aim</span
-                                                    ><br />
-                                                    <span
-                                                      style="
-                                                        color: #f6983d;
-                                                        font-size: 50px;
-                                                      "
-                                                      >M </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 20px;
-                                                        color: #1b698e;
-                                                      "
-                                                      >ETICULOUS </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 15px;
-                                                        text-transform: uppercase;
-                                                      "
-                                                      >great attention to
-                                                      details</span
-                                                    ><br />
-                                                    <span
-                                                      style="
-                                                        color: #f6983d;
-                                                        font-size: 50px;
-                                                      "
-                                                      >A </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 20px;
-                                                        color: #1b698e;
-                                                      "
-                                                      >GILE </span
-                                                    ><span
-                                                      style="
-                                                        font-size: 15px;
-                                                        text-transform: uppercase;
-                                                      "
-                                                      >able to change plans
-                                                      according to
-                                                      requirements</span
-                                                    ></rs-layer
-                                                  >
-
-                                                  <!-- <rs-layer
-                                                    id="slider-2-slide-6-layer-1"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:565px,494px,375px,231px;yo:143px,125px,94px,85px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:841px,736px,559px,344px;h:753px,659px,500px,308px;"
-                                                    data-frame_0="y:50,43,32,19;"
-                                                    data-frame_1="sp:1000;"
-                                                    data-frame_999="o:0;st:w;sR:8000;"
-                                                    style="z-index: 8"
-                                                    ><img
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="841"
-                                                      height="753"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-image-4.png"
-                                                      data-no-retina
-                                                    /> </rs-layer> -->
-                                                  <a
-                                                    id="slider-2-slide-6-layer-2"
-                                                    class="rs-layer btn-outline-white rev-btn"
-                                                    href="../about/index.html"
-                                                    target="_blank"
-                                                    rel="noopener"
-                                                    data-type="button"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:15px;y:m;yo:167px,146px,123px,84px;"
-                                                    data-text="w:normal;s:15;l:15;ls:-0.75px;fw:700;"
-                                                    data-dim="minh:0px,none,none,none;"
-                                                    data-padding="t:20,20,20,15;r:75;b:20,20,20,15;l:25;"
-                                                    data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;"
-                                                    data-frame_0="x:-50,-43,-32,-19;"
-                                                    data-frame_1="st:1000;sp:1000;sR:1000;"
-                                                    data-frame_999="o:0;st:w;sR:7000;"
-                                                    data-frame_hover="boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;sp:100;e:power1.inOut;bri:120%;"
-                                                    style="
-                                                      z-index: 12;
-                                                      margin-top: 200px;
-                                                      text-transform: uppercase;
-                                                    "
-                                                    ><span
-                                                      >Let’s Get Started</span
-                                                    > </a
-                                                  ><rs-layer
-                                                    id="slider-2-slide-6-layer-3"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="y:b;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:1920px,1680px,1276px,787px;h:10px,8px,6px,3px;"
-                                                    data-basealign="slide"
-                                                    data-frame_999="o:0;st:w;"
-                                                    style="z-index: 6"
-                                                    ><img
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="1920"
-                                                      height="10"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-1-bottom.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-6-layer-4"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:1920px,1680px,1276px,787px;h:10px,8px,6px,3px;"
-                                                    data-basealign="slide"
-                                                    data-frame_999="o:0;st:w;"
-                                                    style="z-index: 7"
-                                                    ><img
-                                                      loading="lazy"
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="1920"
-                                                      height="10"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-1-top.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-6-layer-6"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:15px,13px,15px,15px;y:m;yo:-169px,-147px,-120px,-95px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:['12px','12px','12px','12px'];h:['14px','14px','14px','14px'];"
-                                                    data-frame_0="x:-50,-43,-32,-19;"
-                                                    data-frame_1="sp:1000;"
-                                                    data-frame_999="o:0;st:w;"
-                                                    style="z-index: 15"
-                                                  >
-                                                  </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-6-layer-7"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="y:b;yo:57px,49px,37px,22px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:160px,140px,106px,65px;h:134px,117px,88px,54px;"
-                                                    data-basealign="slide"
-                                                    data-frame_0="x:-50,-43,-32,-19;"
-                                                    data-frame_1="sp:1000;"
-                                                    data-frame_999="o:0;st:w;sR:8000;"
-                                                    data-loop_0="y:14px;"
-                                                    data-loop_999="yym:t;"
-                                                    style="z-index: 10"
-                                                    ><img
-                                                      loading="lazy"
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="160"
-                                                      height="134"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/11/slider-image-1.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-6-layer-8"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="x:r;yo:131px,114px,86px,53px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:160px,140px,106px,65px;h:134px,117px,88px,54px;"
-                                                    data-basealign="slide"
-                                                    data-frame_0="x:50,43,32,19;"
-                                                    data-frame_1="sp:1000;"
-                                                    data-frame_999="o:0;st:w;sR:8000;"
-                                                    style="z-index: 11"
-                                                    ><img
-                                                      loading="lazy"
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="160"
-                                                      height="134"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/11/slider-image-3.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-6-layer-9"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:600px,525px,398px,245px;yo:80px,140px,106px,70px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:656px,574px,436px,268px;h:750px,656px,498px,307px;"
-                                                    data-frame_0="y:50,43,32,19;"
-                                                    data-frame_1="st:200;sp:1000;sR:200;"
-                                                    data-frame_999="o:0;st:w;sR:7800;"
-                                                    style="z-index: 9"
-                                                    >
-                                                    <!-- <img
-                                                      loading="lazy"
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="500px"
-                                                      height="500px"
-                                                      data-lazyload="/wp-content/uploads/2022/12/logo-front.png"
-                                                      data-no-retina
-                                                    /> -->
-                                                  </rs-layer>
-                                                  <!-- <rs-layer
-                                                    id="slider-2-slide-6-layer-11"
-                                                    data-type="text"
-                                                    data-color="#de5943"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:33px,30px,34px,32px;y:m;yo:-169px,-147px,-122px,-96px;"
-                                                    data-text="w:normal;s:16;l:25,21,15,20;ls:2.4px,1px,0px,0px;fw:700;"
-                                                    data-frame_0="o:1;"
-                                                    data-frame_0_chars="d:5;x:-105%;o:0;rZ:-90deg;"
-                                                    data-frame_0_mask="u:t;"
-                                                    data-frame_1="sp:1200;"
-                                                    data-frame_1_chars="e:power4.inOut;dir:backward;d:10;rZ:0deg;"
-                                                    data-frame_1_mask="u:t;"
-                                                    data-frame_999="o:0;st:w;sR:6100;"
-                                                    style="
-                                                      font-size: 30px;
-                                                      z-index: 14;
-                                                      text-transform: uppercase;
-                                                    "
-                                                    >s asdaddas <br />i kuajsdfjkad<br />g gasdasd<br />m ajsdgsdasd<br />a asuhdfadh
-                                                  </rs-layer> -->
-                                                </rs-slide>
-                                                <!-- <rs-slide
-                                                  style="position: absolute"
-                                                  data-key="rs-17"
-                                                  data-title="Slide"
-                                                  data-thumb="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-1-50x100.jpg"
-                                                  data-in="o:0;"
-                                                  data-out="a:false;"
-                                                >
-                                                  <img
-                                                    fetchpriority="high"
-                                                    decoding="async"
-                                                    src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt
-                                                    title="slider-1"
-                                                    width="1920"
-                                                    height="827"
-                                                    class="rev-slidebg tp-rs-img rs-lazyload"
-                                                    data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-1.jpg"
-                                                    data-parallax="off"
-                                                    data-no-retina
-                                                  />
-                                                  <rs-layer
-                                                    id="slider-2-slide-17-layer-0"
-                                                    data-type="text"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:15px;y:m;yo:-24px,-21px,-13px,-17px;"
-                                                    data-text="w:normal;s:80,60,48,30;l:82,71,60,38;ls:-1px,0px,0px,0px;fw:700;"
-                                                    data-frame_1="e:power4.inOut;st:380;sp:1200;sR:380;"
-                                                    data-frame_1_sfx="se:blocktoright;"
-                                                    data-frame_999="o:0;st:w;sR:7420;"
-                                                    style="
-                                                      z-index: 13;
-                                                      font-family: 'gilmer';
-                                                    "
-                                                    >We’re Creating<br />
-                                                    Foundations for<br />
-                                                    Your Dreams </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-17-layer-1"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:750px,656px,498px,307px;yo:143px,125px,94px,85px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:841px,736px,559px,344px;h:753px,659px,500px,308px;"
-                                                    data-frame_0="y:50,43,32,19;"
-                                                    data-frame_1="sp:1000;"
-                                                    data-frame_999="o:0;st:w;sR:8000;"
-                                                    style="z-index: 8"
-                                                    ><img
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="841"
-                                                      height="753"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-image-4.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><a
-                                                    id="slider-2-slide-17-layer-2"
-                                                    class="rs-layer btn-outline-white rev-btn"
-                                                    href="../about/index.html"
-                                                    target="_blank"
-                                                    rel="noopener"
-                                                    data-type="button"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:15px;y:m;yo:167px,146px,123px,84px;"
-                                                    data-text="w:normal;s:15;l:15;ls:-0.75px;fw:700;"
-                                                    data-dim="minh:0px,none,none,none;"
-                                                    data-padding="t:20,20,20,15;r:75;b:20,20,20,15;l:25;"
-                                                    data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;"
-                                                    data-frame_0="x:-50,-43,-32,-19;"
-                                                    data-frame_1="st:1000;sp:1000;sR:1000;"
-                                                    data-frame_999="o:0;st:w;sR:7000;"
-                                                    data-frame_hover="boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;sp:100;e:power1.inOut;bri:120%;"
-                                                    style="
-                                                      z-index: 12;
-                                                      font-family: 'Titillium Web';
-                                                      text-transform: uppercase;
-                                                    "
-                                                    ><span
-                                                      >Let’s Get Started</span
-                                                    > </a
-                                                  ><rs-layer
-                                                    id="slider-2-slide-17-layer-3"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="y:b;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:1920px,1680px,1276px,787px;h:10px,8px,6px,3px;"
-                                                    data-basealign="slide"
-                                                    data-frame_999="o:0;st:w;"
-                                                    style="z-index: 6"
-                                                    ><img
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="1920"
-                                                      height="10"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-1-bottom.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-17-layer-4"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:1920px,1680px,1276px,787px;h:10px,8px,6px,3px;"
-                                                    data-basealign="slide"
-                                                    data-frame_999="o:0;st:w;"
-                                                    style="z-index: 7"
-                                                    ><img
-                                                      loading="lazy"
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="1920"
-                                                      height="10"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-1-top.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-17-layer-6"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:15px,13px,15px,15px;y:m;yo:-169px,-147px,-120px,-95px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:['12px','12px','12px','12px'];h:['14px','14px','14px','14px'];"
-                                                    data-frame_0="x:-50,-43,-32,-19;"
-                                                    data-frame_1="sp:1000;"
-                                                    data-frame_999="o:0;st:w;"
-                                                    style="z-index: 15"
-                                                    ><img
-                                                      loading="lazy"
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="12"
-                                                      height="14"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/Bookmark.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-17-layer-7"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="y:b;yo:57px,49px,37px,22px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:160px,140px,106px,65px;h:134px,117px,88px,54px;"
-                                                    data-basealign="slide"
-                                                    data-frame_0="x:-50,-43,-32,-19;"
-                                                    data-frame_1="sp:1000;"
-                                                    data-frame_999="o:0;st:w;sR:8000;"
-                                                    data-loop_0="y:14px;"
-                                                    data-loop_999="yym:t;"
-                                                    style="z-index: 10"
-                                                    ><img
-                                                      loading="lazy"
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="160"
-                                                      height="134"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/11/slider-image-1.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-17-layer-8"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="x:r;yo:131px,114px,86px,53px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:160px,140px,106px,65px;h:134px,117px,88px,54px;"
-                                                    data-basealign="slide"
-                                                    data-frame_0="x:50,43,32,19;"
-                                                    data-frame_1="sp:1000;"
-                                                    data-frame_999="o:0;st:w;sR:8000;"
-                                                    style="z-index: 11"
-                                                    ><img
-                                                      loading="lazy"
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="160"
-                                                      height="134"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/11/slider-image-3.png"
-                                                      data-no-retina
-                                                    />
-                                                  </rs-layer>
-                                                  <rs-layer
-                                                    id="slider-2-slide-17-layer-9"
-                                                    data-type="image"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:640px,560px,425px,270px;yo:80px,140px,106px,70px;"
-                                                    data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
-                                                    data-dim="w:656px,574px,436px,268px;h:750px,656px,498px,307px;"
-                                                    data-frame_0="y:50,43,32,19;"
-                                                    data-frame_1="st:200;sp:1000;sR:200;"
-                                                    data-frame_999="o:0;st:w;sR:7800;"
-                                                    style="z-index: 9"
-                                                    ><img
-                                                      loading="lazy"
-                                                      decoding="async"
-                                                      src="../wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                      alt
-                                                      class="tp-rs-img rs-lazyload"
-                                                      width="656"
-                                                      height="750"
-                                                      data-lazyload="//gaviaspreview.com/wp/constix/wp-content/uploads/2023/12/slider-image-5.png"
-                                                      data-no-retina
-                                                    /> </rs-layer
-                                                  ><rs-layer
-                                                    id="slider-2-slide-17-layer-11"
-                                                    data-type="text"
-                                                    data-color="#de5943"
-                                                    data-rsp_ch="on"
-                                                    data-xy="xo:33px,30px,34px,32px;y:m;yo:-169px,-147px,-122px,-96px;"
-                                                    data-text="w:normal;s:16;l:25,21,15,20;ls:2.4px,1px,0px,0px;fw:700;"
-                                                    data-frame_0="o:1;"
-                                                    data-frame_0_chars="d:5;x:-105%;o:0;rZ:-90deg;"
-                                                    data-frame_0_mask="u:t;"
-                                                    data-frame_1="sp:1200;"
-                                                    data-frame_1_chars="e:power4.inOut;dir:backward;d:10;rZ:0deg;"
-                                                    data-frame_1_mask="u:t;"
-                                                    data-frame_999="o:0;st:w;sR:6100;"
-                                                    style="
-                                                      z-index: 14;
-                                                      font-family: 'Titillium Web';
-                                                      text-transform: uppercase;
-                                                    "
-                                                    >your dream come true
-                                                  </rs-layer>
-                                                </rs-slide> -->
-                                              </rs-slides>
-                                            </rs-module>
-                                            <script
-                                              data-cfasync="false"
-                                              src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-                                            ></script>
-                                            <script>
-                                              setREVStartSize({
-                                                c: "rev_slider_2_1",
-                                                rl: [1240, 1024, 778, 480],
-                                                el: [827, 768, 550, 375],
-                                                gw: [1170, 1024, 778, 480],
-                                                gh: [827, 768, 550, 375],
-                                                type: "standard",
-                                                justify: "",
-                                                layout: "fullwidth",
-                                                mh: "0",
-                                              });
-                                              if (
-                                                window.RS_MODULES !==
-                                                  undefined &&
-                                                window.RS_MODULES.modules !==
-                                                  undefined &&
-                                                window.RS_MODULES.modules[
-                                                  "revslider21"
-                                                ] !== undefined
-                                              ) {
-                                                window.RS_MODULES.modules[
-                                                  "revslider21"
-                                                ].once = false;
-                                                window.revapi2 = undefined;
-                                                if (
-                                                  window.RS_MODULES
-                                                    .checkMinimal !== undefined
-                                                )
-                                                  window.RS_MODULES.checkMinimal();
-                                              }
-                                            </script>
-                                          </rs-module-wrap>
+                                      <ol class="carousel-indicators">
+                                        <li
+                                          data-bs-target="#carousel"
+                                          data-bs-slide-to="0"
+                                          class="active"
+                                          aria-current="true"
+                                          aria-label="Slide 1"
+                                        ></li>
+                                        <li
+                                          data-bs-target="#carousel"
+                                          data-bs-slide-to="1"
+                                          aria-label="Slide 2"
+                                        ></li>
+                                        <li
+                                          data-bs-target="#carousel"
+                                          data-bs-slide-to="2"
+                                          aria-label="Slide 3"
+                                        ></li>
+                                        <li
+                                          data-bs-target="#carousel"
+                                          data-bs-slide-to="3"
+                                          aria-label="Slide 4"
+                                        ></li>
+                                      </ol>
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img
+                                            src="/wp-content/uploads/gallery/s1.jpg"
+                                            class="d-block w-100 vh-100"
+                                            alt="Carousel Image 1"
+                                          />
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img
+                                            src="/wp-content/uploads/gallery/s4.jpg"
+                                            class="d-block min-vw-100 vh-100"
+                                            alt="Carousel Image 2"
+                                          />
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img
+                                            src="/wp-content/uploads/gallery/s6.jpg"
+                                            class="d-block min-vw-100  vh-100"
+                                            alt="Carousel Image 2"
+                                          />
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img
+                                            src="/wp-content/uploads/gallery/s7.jpg"
+                                            class="d-block min-vw-100 vh-100"
+                                            alt="Carousel Image 3"
+                                          />
                                         </div>
                                       </div>
+                                      <a
+                                        class="carousel-control-prev"
+                                        href="#carousel"
+                                        role="button"
+                                        data-bs-slide="prev"
+                                      >
+                                        <span
+                                          class="carousel-control-prev-icon"
+                                          aria-hidden="true"
+                                        ></span>
+                                        <span class="visually-hidden"
+                                          >Previous</span
+                                        >
+                                      </a>
+                                      <a
+                                        class="carousel-control-next"
+                                        href="#carousel"
+                                        role="button"
+                                        data-bs-slide="next"
+                                      >
+                                        <span
+                                          class="carousel-control-next-icon"
+                                          aria-hidden="true"
+                                        ></span>
+                                        <span class="visually-hidden"
+                                          >Next</span
+                                        >
+                                      </a>
                                     </div>
+                                    <!-- Carousel End -->
                                   </div>
                                 </div>
                               </div>
                             </section>
 
-
-                        <!-- Projects -->
+                            <!-- Projects -->
                             <section
                               class="elementor-section elementor-top-section elementor-element elementor-element-4572c50 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                               data-id="4572c50"
@@ -4629,9 +4026,24 @@
                                                 <div
                                                   class="milestone-two__description"
                                                 >
-                                                DSI Middle East W.L.L., formerly QACS, is a leading Post-Tension Structural Engineering company in Qatar, established in 2005. It has completed over 100 projects, including towers, bridges, metro projects, and infrastructure.
-                                                <br> <br>
-                                                In 2016, it became a joint venture with DYWIDAG Systems International (DSI), a global leader in civil engineering, delivering innovative and high-quality structural solutions.
+                                                  DSI Middle East W.L.L.,
+                                                  formerly QACS, is a leading
+                                                  Post-Tension Structural
+                                                  Engineering company in Qatar,
+                                                  established in 2005. It has
+                                                  completed over 100 projects,
+                                                  including towers, bridges,
+                                                  metro projects, and
+                                                  infrastructure.
+                                                  <br />
+                                                  <br />
+                                                  In 2016, it became a joint
+                                                  venture with DYWIDAG Systems
+                                                  International (DSI), a global
+                                                  leader in civil engineering,
+                                                  delivering innovative and
+                                                  high-quality structural
+                                                  solutions.
                                                 </div>
                                               </div>
                                             </div>
@@ -4803,9 +4215,23 @@
                                                 <div
                                                   class="milestone-two__description"
                                                 >
-                                                Sigma Technologies, a subsidiary of Sigma Construction Company, specializes in smart building solutions, automation, and AI-driven project management to enhance efficiency and safety in construction.
-<br><br>
-                                                Focusing on digital transformation and sustainability, the company integrates cutting-edge technologies like IoT and AI to optimize workflows and modernize infrastructure across Qatar and beyond.
+                                                  Sigma Technologies, a
+                                                  subsidiary of Sigma
+                                                  Construction Company,
+                                                  specializes in smart building
+                                                  solutions, automation, and
+                                                  AI-driven project management
+                                                  to enhance efficiency and
+                                                  safety in construction.
+                                                  <br /><br />
+                                                  Focusing on digital
+                                                  transformation and
+                                                  sustainability, the company
+                                                  integrates cutting-edge
+                                                  technologies like IoT and AI
+                                                  to optimize workflows and
+                                                  modernize infrastructure
+                                                  across Qatar and beyond.
                                                 </div>
                                               </div>
                                             </div>
